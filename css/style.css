@@ -1,0 +1,247 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+body {
+  background-image: url(https://s1.1zoom.me/big0/485/Cats_Dogs_Colored_background_Lying_down_Poodle_572003_1280x853.jpg);
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: rgb(130, 2, 99);
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  margin: 0;
+  background-color: rgb(130, 2, 98);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 1%;
+}
+
+footer {
+  color: aliceblue;
+  background-color: rgb(130, 2, 98);
+  width: 100%;
+  height: 25%;
+  position: relative;
+  margin-bottom: -2%;
+  left: 0;
+}
+
+
+
+.footerHome {
+  color: aliceblue;
+  background-color: rgb(130, 2, 98);
+  width: 100%;
+  height: 25%;
+  margin-top: 40%;
+  position: relative;
+  margin-bottom: -2%;
+  left: 0;
+}
+
+.container {
+  padding-top: 50px;
+  padding: 40px;
+}
+
+#pet,
+#place {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+}
+
+h1,
+#place {
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+}
+
+#pet {
+  color: #2E294E;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: 'Inter', sans-serif;
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+}
+
+
+a {
+
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  margin: 0 0.75em 0 0.75em;
+  font-size: 20px;
+}
+
+
+.hover:hover {
+  color: white;
+  box-shadow: 0 2px 0 0 currentColor;
+  transition: 0.3s;
+}
+
+.hover2:hover {
+  color: black;
+  box-shadow: 0 2px 0 0 currentColor;
+  transition: 0.3s;
+}
+
+h1:hover {
+  color: black;
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+#registro:hover {
+  color: white;
+  text-decoration: underline;
+  transition: 0.3s;
+  background-color: #2E294E;
+}
+
+.btn:hover{
+  color: white;
+  text-decoration: underline;
+  transition: 0.3s;
+  background-color: #2E294E;
+}
+
+.buscar{
+  padding: .2rem;
+  text-align: center;
+}
+
+.text {
+  margin: auto;
+  width: 40%;
+}
+
+#titulo {
+  width: 10px;
+}
+
+.buscar{
+  margin-top: 15px;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.btn {
+  text-align: center;
+  color: #FFF;
+  background-color: #2E294E;
+}
+
+h1 {
+  color: #2E294E;
+  margin-top: 10%;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Inter;
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+}
+
+.text {
+  width: 60%;
+  margin-top: 2%;
+  color: #2E294E;
+  text-align: center;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+}
+
+.textHome {
+  margin: auto;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  text-align: center;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a {
+    display: none;
+  }
+  
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  h1{
+    font-size: 40px;
+  }
+  .text{
+    width: 80%;
+    font-size: 20px;
+  }
+  .buscar{
+    text-align: center;
+  }
+}

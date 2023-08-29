@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/a8e980868c.js" crossorigin="anonymous"></script>
+    <title>PetSitter</title>
+    <link rel="icon" type="image/x-icon" href="images/icon.jpg">
+</head>
+<body class="body_register">
+
+
+
+    <header>
+        <div style="display: flex; justify-content: space-between;">
+            <div id="titulo" style="margin-top: 0.2%;">
+                <table class="active">
+                    <tr>
+                        <td id="pet">PET</td>
+                        <td id="place">PLACE</td>
+                    </tr>
+                </table>
+            </div>
+            <ul>
+                <li><a class="hover2 especial" href="#">Sobre</a></li> 
+                <li><a class="hover2 especial" href="registrar.html">Registrar-se</a></li>
+                <li><button class="button pad" id="reg"><a href="index.html">Página Inicial</a></button></li>
+            </ul>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="signin-signup">
+            <form action="" class="sign-in-form">
+                <h1 class="title">Login PetSitter</h1>
+                <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Username">
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Senha">
+                </div>
+                <input type="submit" value="Login" class="btn">
+                <p class="social-text">Ou se cadastre com redes sociais</p>
+                <div class="social-media">
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class="social-icon">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="" class="social-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <p class="account-text">Não possui uma conta? <a href="#" id="sign-up-btn2">Cadastre-se</a></p>
+            </form>
+            <form action="" class="sign-up-form">
+                <h1 class="title">Cadastro PetSitter</h1>
+                <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Username">
+                </div>
+                <div class="input-field">
+                    <i class="fa-solid fa-file"></i>
+                    <input type="text" placeholder="Cpf">
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-envelope"></i>
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Senha">
+                </div>
+                <input type="submit" value="Sign up" class="btn">
+                <p class="account-text">Já possui uma conta? <a href="#" id="sign-in-btn2">Faça login</a></p>
+            </form>
+        </div>
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <table class="petplacelogin">
+                        <tr>
+                            <td id="pet">PET</td>
+                            <td id="place">PLACE</td>
+                        </tr>
+                    </table>
+                    <p>Agradecemos a sua confiaça, faça o cadastro e torne-se um incrível PetSitter</p>
+                    <button class="btn" id="sign-in-btn">Login</button>
+                </div>
+                <img src="signin.svg" alt="" class="image">
+            </div>
+            <div class="panel right-panel">
+                <div class="content">
+                    <table class="petplacelogin">
+                        <tr>
+                            <td id="pet">PET</td>
+                            <td id="place">PLACE</td>
+                        </tr>
+                    </table>
+                    <p>Já é um PetSitter?! Então faça o Login!</p>
+                    <button class="btn" id="sign-up-btn">Cadastro</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
